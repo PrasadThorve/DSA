@@ -30,6 +30,8 @@ void BinarySearch(int arr[],int start,int end,int key){
     }
     
 
+    //Write Binary Search using While Loop.
+    //while(start<=end)
 }
 
 int main(){
