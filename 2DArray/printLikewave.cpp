@@ -1,8 +1,10 @@
 /* link => https://www.codingninjas.com/studio/problems/print-like-a-wave_893268?utm_source=youtube&utm_medium=affiliate&utm_campaign=love_babbar_6&leftPanelTab=0*/
 
 //code 
-#include<vector>
-#include <bits/stdc++.h> 
+#include <vector>
+#include <iostream>
+using namespace std;
+// #include <bits/stdc++.h> 
 vector<int> wavePrint(vector<vector<int>> arr, int nRows, int mCols)
 {
     //Write your code here
