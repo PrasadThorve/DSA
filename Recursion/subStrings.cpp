@@ -1,7 +1,5 @@
 #include<iostream>
 using namespace std;
-
-#include <bits/stdc++.h> 
 #include<vector>
 
 void findSub(string str, string output, vector<string>& ans,int index){
@@ -10,8 +8,8 @@ void findSub(string str, string output, vector<string>& ans,int index){
 		ans.push_back(output);
 		return;
 	}
-
-	//exclude
+ 
+	//exclude ..
 	findSub(str,output,ans,index+1);
 
 	//include
@@ -34,7 +32,7 @@ int main() {
 	string output;
 	findSub(str,output, ans, index);
 
-    cout<<"Subsets"<<endl
+    cout<<"Subsets"<<endl;
     for(int i=0;i<ans.size();i++){
         for(int j=0;j<ans[i].length();j++){
             cout<<ans[i][j];
