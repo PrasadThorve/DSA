@@ -2,6 +2,10 @@
 Link : 
 Naukri : https://www.naukri.com/code360/problems/longest-subarray-with-sum-k_6682399?leftPanelTabValue=SUBMISSION
 LeetCode Premium : https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/description/ 
+
+Complexity : 
+Time : O(n)
+Space : O(n)
 """
 
  
